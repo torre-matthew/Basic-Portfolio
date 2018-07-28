@@ -9,7 +9,6 @@ body {
 
 }
 
-
 nav {
 
 	background-color: #ffffff;
@@ -61,7 +60,7 @@ header {
 	padding: 10px;
 }
 
-#aboutme {
+#bodheader {
 	color: #9bb26c; 
 }
 
@@ -76,11 +75,23 @@ section {
 }
 
 /*Portfolio Page Body */
+
+.contbod {
+	width: 705px;
+	margin: auto;
+	clear: both;
+	border: 2px solid #48582d;
+	padding: 25px 20px;
+	background-color: #ffffff;
+	flex: 1 0 auto;
+}
+
+/*Portfolio Page Body */
 .portbod {
 	width: 705px;
 	margin: auto;
 	clear: both;
-	border: 2px solid #dddddd;
+	border: 2px solid #48582d;
 	padding: 35px 28px 35px 28px;
 	background-color: #ffffff;
 	flex: 1 0 auto;
@@ -112,6 +123,35 @@ td > p {
 	background-color: #9bb26c; 
 	position: absolute;
 	bottom: 3px;
+}
+
+/*Contact Page Form Styles*/
+
+textarea {
+
+	width: 690px;
+	height: 100px;
+	margin-top: 7px;
+}
+
+.textemail > input {
+	width: 690px;
+	margin-top: 7px;
+}
+
+.textemail {
+	padding: 5px;
+}
+
+button {
+    background-color: #9bb26c;
+    border: none;
+    color: #2a2b2f;
+    padding: 10px 25px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 
 p {
